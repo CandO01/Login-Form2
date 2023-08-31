@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial scale = 1.0">
+        <title>Login | Form</title>
+        <link rel="stylesheet" href="./loginform.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+
+                <div class="buttonbox">
+                    <div id="btn12" class="btn1"></div>
+                    <button type="button" class="inputtag1" onclick="login();">Login</button>
+                    <button type="button" class="inputtag11" onclick="register();">Register</button>
+                </div>
+
+                <div class="social-media">
+                    <img src="./insta logo.jpg">
+                    <img src="./twitter logo 2.jpg">
+                    <img src="./youtuve logo.jpg">
+                </div>
+
+                <form id="login01" class="form-group">
+                    <input type="text" placeholder="User Id" class="userid">
+                    <input type="password" placeholder="Enter Password" class="userid">
+                    <input type="checkbox" class="checktag"><span>Remember Password</span>
+                    <button class="submitlogin">Login</button>
+                </form>
+
+                <form id="register01" class="form-group">
+                    <input type="text" placeholder="User Id" class="userid">
+                    <input type="email" placeholder="Email Id" class="userid">
+                    <input type="password" placeholder="Enter Password" class="userid">
+                    <input type="checkbox" class="checktag"><span>I agree to the terms and conditions</span>
+                    <button class="submitlogin">Register</button>
+                </form>
+
+            </div>
+        </div>
+        <script>
+            const login11 = document.getElementById('login01');
+            const reg11 = document.getElementById('register01');
+            const btn11 = document.getElementById('btn12');
+
+            function register(){
+                login11.style.left = '-300px';
+                reg11.style.left = '50px';
+                btn11.style.left = '110px';
+            }
+
+            function login(){
+                login11.style.left = '50px';
+                reg11.style.left = '400px';
+                btn11.style.left = '0px'
+            }
+        </script>
+    </body>
+</html>

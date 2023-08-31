@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    background-image: linear-gradient(rgba(200,200,0,0.4), rgba(200,0,0,0.4)), url(./blackout-curtains-black.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+     position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    background: #fff;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 6px 1px #fff;
+    background: transparent;
+    overflow-x: hidden;
+}
+.buttonbox{
+    width: 220px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    margin: 35px auto;
+    position: relative;
+  
+}
+.inputtag1, .inputtag11{
+    padding: 8px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    position: relative;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+}
+.inputtag11{
+  margin-left: 42.7px;
+}
+.btn1{
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+    transition: 1s;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    
+}
+.social-media img{
+ width: 30px;
+ margin: 0 12px;
+ border-radius: 50%;
+ box-shadow: 0 0 20px 0 #7f7f7f3d;
+}
+.form-group{
+    width: 280px;
+    margin: 30px auto;
+    position: absolute;
+    transition: 1s;
+}
+.userid{
+    width: 100%;
+    padding: 15px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #7f7f7f3d;
+    outline: 0;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+.submitlogin{
+    margin-top: 30px;
+    margin-left: 24px;
+    display: block;
+    width: 85%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.checktag{
+    margin-top: 30px;
+}
+span{
+    margin-left: 12px;
+    color: #777;
+    font-size: 12px;
+}
+#login01{
+    left: 50px;
+}
+#register01{
+    left: 400px;
+}
